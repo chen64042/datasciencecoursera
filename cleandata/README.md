@@ -3,4 +3,4 @@
 
 #How to run this script?
   * Set your working directory the same directory where you download UCI HAR Dataset
-  * Download the script [process.R](https://github.com/chen64042/datasciencecoursera/blob/master/cleandata/process.R) . The script will show the steps it's taking
+  * Download the script [run_analysis.R](https://github.com/chen64042/datasciencecoursera/blob/master/cleandata/run_analysis.R) . The script will show the steps it's taking
