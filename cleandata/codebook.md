@@ -26,7 +26,7 @@ The file contains the mean for either the mean or the standard deviation of meas
   3. `train/` or `test/` subject files are also loaded and V1 is renamed to `subject_id`.
   4. the variable V1, which represents the type of an activity, is renamed to `activity_id` onced loaded.
 2. Merging, processing and writing output:
-  1. `cbind` and `rbind` were used o merge the data vertically and horizontally.
+  1. `cbind` and `rbind` were used to merge the data vertically and horizontally.
   2. Use `summarise_each` to group-by activity_id and subject_id and calcualte the mean for the mean and std of the measurements.
   . Merge the outout from step 6. with activity label file and transform `activity_id` to a descriptive presentation, `activity_label` 
   3. To simplify the codebook explaination, I renamed the resulted variable names so they can be easily tell by the tokens.
