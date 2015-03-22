@@ -4,3 +4,4 @@
 #How to run this script?
   * set your working directory the same directory where you download UCI HAR Dataset
   * download the script [process.R](https://github.com/chen64042/datasciencecoursera/blob/master/cleandata/process.R) . The script will show the steps it's taking
+  * Test cleandata/process.R@eb7dac006062c05293e2b9bf56b849609103de0d
