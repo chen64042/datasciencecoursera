@@ -28,9 +28,9 @@ The file contains the mean for either the mean or the standard deviation of meas
 2. Merging, processing and writing output:
   1. `cbind` and `rbind` were used to merge the data vertically and horizontally.
   2. Use `summarise_each` to group-by activity_id and subject_id and calcualte the mean for the mean and std of the measurements.
-  . Merge the outout from the last step with activity label file and transform `activity_id` to a descriptive presentation, `activity_label` 
-  3. To simplify the codebook explaination, I renamed the resulted variable names so they can be easily tell by the tokens.
-  4. . Finally the output was written into a file called **tidy.txt**
+  3. Merge the outout from the last step with activity label file and transform `activity_id` to a descriptive presentation, `activity_label` 
+  4. To simplify the codebook explaination, I renamed the resulted variable names so they can be easily tell by the tokens.
+  5. Finally the output was written into a file called **tidy.txt**
 3. Better messages:
   1. I added some minimal error handling so hopefully it is easier to know what went wrong
   2. Since the loading may take a few seconds, some messages were added so users know what is going on
