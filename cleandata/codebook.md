@@ -22,9 +22,9 @@ The file contains the mean for either the mean or the standard deviation of meas
 ##How did I create the result
 1. Simplifying the dataset:
   1. Rather than loading all 561 variables to create a `data.frame`. I started by figuring out what variables I need based on the instructions. I did this by loading `features.txt` first and identified variable names with *Mean* or *Std* in them.
-  2. Once I have the indices of the variables required, I load the dataset with only those variables into the data.frames `x` and `y` for the measurement and activities respectively.
+  2. Once I have the indices of the variables required, I load the dataset with only those variables into the `data.frame` `x` and `y` for the measurement and activities respectively.
   3. `train/` or `test/` subject files are also loaded and V1 is renamed to `subject_id`.
-  4. the variable V1, which represents the type of an activity, is renamed to `activity_id` onced loaded.
+  4. The variable V1, which represents the type of an activity, is renamed to `activity_id` onced loaded.
 2. Merging, processing and writing output:
   1. `cbind` and `rbind` were used to merge the data vertically and horizontally.
   2. Use `summarise_each` to group-by activity_id and subject_id and calcualte the mean for the mean and std of the measurements.
