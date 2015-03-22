@@ -6,4 +6,4 @@
   * Download the script [run_analysis.R](https://github.com/chen64042/datasciencecoursera/blob/master/cleandata/run_analysis.R) . The script will show the steps it's taking
 
 #Where is the codebook?
-  * Codebook is in `codebook.md`
+  * Codebook is in [codebook.md](https://github.com/chen64042/datasciencecoursera/blob/master/cleandata/codebook.md)
