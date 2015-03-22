@@ -1,4 +1,4 @@
-#My Code Book (and how did I get there
+#My Code Book (and how did I get there)
 ##What is in tidy.txt?
 ### The result:
 The file contains the mean for either the mean or the standard deviation of measurements (see **Measurement variables** below) for each activity performed by each participant. 
